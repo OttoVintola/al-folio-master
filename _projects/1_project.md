@@ -1,81 +1,101 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: programming 2
+description: 
+img: assets/img/programming2/programming2.jpg
 importance: 1
-category: work
-related_publications: true
+category: teach
+related_publications: false
+     
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this course, it was our pleasure and privilege to introduce the students to many of the central principles of computing and programming, to the computer as a machine, and to programming paradigms that enable them to virtualize and scale up their computations all the way to industrial-scale infrastructure, if they so choose.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+During the course we teach:
+    1. Bits and data
+    2. Combinational logic
+    3. Sequential logic, state and feedback
+    4. A programmable computer
+    5. Collections and functions
+    6. Efficiency
+    8. Recursion
+    9. Concurrency and parallelism
+    10. Machines that learn?
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/programming2/decoder_unit.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/programming2/O-funcs-log.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/programming2/sum-dag-perf.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The course goes in depth into runtimes, computer architecture and the frontiers of computer science. 
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Assignments and an exam is how students are graded. Each week there are weekly programming assignments in Scala about one of the 10 topics listed above. 
+There are also rigorous mathematical proofs and concepts to help the students formalize their learning. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/programming2/concepts.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Description of the Transitivity of big-O notation and some definitions regarding them. 
+</div>
+
+Mainly however, the course is about the students learning to think like a computer scientist and express their thoughts in a way that a computer can understand.
+The assignments are written in Scala with propietary architectures and libraries that we have developed for the course. The course has weekly lectures and labs everyday for almost 8 hours a day.
+
+This course is one of the biggest courses in the department and is a requirement for all students in the computer science and data science programs. Every year it has 600 - 800 students. So, you can imagine the scale of the course – during the first lectures there are usually not even enough seats for everyone, so some people end up standing. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/programming2/csbld.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/programming2/aalto.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Picture of the lecture room in less capacity than the course usually has... 
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Below is an implementation of a `binary search` algorithm in Scala, which was used in the course to teach the students about the efficiency of algorithms and the importance of data structures – although there is a separate Data Structures and Algorithms course that runs every autumn semester. It uses an abstract `Ordering[T]` to compare arbitrary types `T`, however, it is merely a simple example and the real assignments are much more challenging (not to mention the exam). 
+
 
 {% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+```scala
+def binarySearch[T](s: IndexedSeq[T], k: T)(using Ordering[T]) : Boolean =
+  import math.Ordered.orderingToOrdered // To use the given Ordering
+  //require(s.sliding(2).forall(p => p(0) <= p(1)), "s should be sorted")
+  def inner(start: Int, end: Int): Int =
+    if !(start < end) then start
+    else
+      val mid = (start + end) / 2
+      val cmp = k compare s(mid)
+      if cmp == 0 then mid                     // k == s(mid)
+      else if cmp < 0 then inner(start, mid-1) // k < s(mid)
+      else inner(mid+1, end)                   // k > s(mid)
+    end if
+  end inner
+  if s.length == 0 then false
+  else s(inner(0, s.length-1)) == k
+end binarySearch
 ```
 
 {% endraw %}
+
+The assignemnts are usually crafted such that online tools and resources can help with collecting information required, but the student has the responsibility to understand and implement the solution by combining the pieces of information they have gathered.
+
+
+
+# References
+
+1. Programming 2 notes (Petteri Kaski, Tommi Junttila, and Lukas Ahrenberg 2013-2024) at [https://a1120.cs.aalto.fi/2024/notes/](https://a1120.cs.aalto.fi/2024/notes/)

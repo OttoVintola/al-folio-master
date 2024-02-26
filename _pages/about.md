@@ -2,25 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p></p>
+    <p></p>
+    <p></p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 latest_posts: true # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, I'm Otto. I like exploring computers with smart friends.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I come from a computer science background with 1 - 2 years of data science experience in ML and software engineering. I'm currently working as a TA for the [CS Department](https://www.aalto.fi/en/department-of-computer-science) at [Aalto University](https://www.aalto.fi/fi). Also, during the summer I work for [Nokia](https://www.nokia.com) developing and deploying software systems. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At [Aalto University](https://www.aalto.fi/fi), I'm pursuing my bachelor's in Data Science with a minor in Industrial Engineering and Management. Some notable courses I enjoyed: [Machine Learning](https://courses.aalto.fi/s/course/a053X000012QzLnQAK/machine-learning-d?language=sv), [Deep Learning](https://courses.aalto.fi/s/course/a053X000012QyXgQAK/deep-learning-d?language=en_US), [Linear Algebra](https://courses.aalto.fi/s/course/a057T000009637iQAA/linear-algebra?language=en_US), [Data Structures and Algorithms](https://courses.aalto.fi/s/course/a053X000012QxXKQA0/data-structures-and-algorithms?language=en_US) and [Databases](https://courses.aalto.fi/s/course/a057T0000043wFPQAY/databases-for-data-science?language=fi). In the Aalto ecosystem I like to partake in the biggest hackathon in Europe [Junction](https://www.hackjunction.com), and a business case-competition [Deep Dive](https://www.deep-dive.org). 
+
+Before Aalto, I explored computer science by building networks (VPNs and servers) on microcontrollers and embedded systems with C on [RaspberryPis](https://www.raspberrypi.com). During middle school and high school I dedicated time to mathematics and received technological innovation scholarships.
+
+Nowadays, I like to keep my daily life scheduled while still finding time to hang out with my family and friends. 
+
+
