@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: 
+permalink: /books/
 title: books
 description: 
 nav: true

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: https://flic.kr/ps/3XbGGa
+permalink: /photos/
 title: photos
 description: 
 nav: true
