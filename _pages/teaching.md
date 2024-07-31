@@ -3,7 +3,7 @@ layout: page
 title: courses/teaching
 permalink: /teaching/
 description: A growing collection of courses I have taught or finished at university or externally.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [teach, learn]
 horizontal: false

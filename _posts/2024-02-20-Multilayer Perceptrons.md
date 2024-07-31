@@ -2,9 +2,9 @@
 layout: distill
 title: Multilayer Perceptrons and Backpropagation
 description: A brief introduction to the theory behind deep learning, linear classifiers, gradient descent and backpropagation explained by going through the necessary information to understand multilayer perceptrons. 
-tags: MachineLearning DeepLearning NeuralNetworks Backpropagation
+tags: 
 giscus_comments: true
-date: 2024-02-20
+date: 2024-02-20 12.00
 featured: true
 published: true
 
@@ -15,7 +15,7 @@ authors:
       name: Aalto University
 
 
-bibliography: 2018-12-22-distill.bib
+bibliography: 2024-02-20-MLP.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:

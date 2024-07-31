@@ -10,18 +10,11 @@ published: false
      
 ---
 
-In this course, it was our pleasure and privilege to introduce the students to many of the central principles of computing and programming, to the computer as a machine, and to programming paradigms that enable them to virtualize and scale up their computations all the way to industrial-scale infrastructure, if they so choose.
-
-During the course we teach:
-    1. Bits and data
-    2. Combinational logic
-    3. Sequential logic, state and feedback
-    4. A programmable computer
-    5. Collections and functions
-    6. Efficiency
-    8. Recursion
-    9. Concurrency and parallelism
-    10. Machines that learn?
+Deep Learning is a course that is part of the computer science and data science programs at Aalto University. It is an advanced course in computer science that covers topics such as:
+    1. MLPs and Backpropagation
+    2. Convolutional Neural Networks
+    3. Recurrent Neural Networks
+    
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

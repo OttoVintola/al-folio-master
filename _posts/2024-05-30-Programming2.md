@@ -1,15 +1,16 @@
 ---
-layout: page
-title: programming 2
-description: 
-img: assets/img/programming2/programming2.jpg
-importance: 1
-category: teach
-related_publications: false
-     
+layout: post
+title: Thank you Lukas
+date: 2024-05-30 12.15
+description: To the best professor in the department and a great person. It was a pleasure to work with you.
+tags:
+categories: 
+pretty_table: true
+related_posts: true
+
 ---
 
-In this course, it was our pleasure and privilege to introduce the students to many of the central principles of computing and programming, to the computer as a machine, and to programming paradigms that enable them to virtualize and scale up their computations all the way to industrial-scale infrastructure, if they so choose.
+In this course, it was our pleasure and privilege to introduce the students to many of the central principles of computing and programming, to the computer as a machine, and to programming paradigms that enable them to virtualize and scale up their computations all the way to industrial-scale infrastructure, if they so choose. 
 
 During the course we teach:
     1. Bits and data

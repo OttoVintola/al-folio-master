@@ -4,7 +4,7 @@ title: Transformers
 description: An in-depth look at the transformative impact of deep learning transformers on natural language processing (NLP). 
 tags: distill formatting
 giscus_comments: true
-date: 2024-01-27
+date: 2024-01-27 18.55
 featured: true
 published: false
 
