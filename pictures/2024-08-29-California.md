@@ -15,7 +15,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/bigsur.JPG" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/bigsur.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -25,10 +25,10 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/beachwalk.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/beachwalk.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/wassup.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/wassup.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -37,7 +37,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/swag.JPG" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/swag.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -47,7 +47,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/swimming.JPG" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/swimming.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -58,13 +58,13 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/vepa.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/vepa.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/ad.JPG" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/ad.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/firework.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/firework.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -74,7 +74,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/palsu.JPG" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/palsu.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -84,7 +84,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/birds.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/birds.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -94,7 +94,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/bench.JPG" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/bench.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -105,7 +105,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/seagulls.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/seagulls.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -115,10 +115,10 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/crows.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/crows.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/seat.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/seat.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -129,7 +129,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/tp_hike.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/tp_hike.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -138,7 +138,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/selfie.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/selfie.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -147,7 +147,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/park.JPG" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/park.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -156,13 +156,13 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/coffee.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/coffee.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/big_fw.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/big_fw.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/rock.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/rock.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -172,7 +172,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/tp_wocean.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/tp_wocean.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
@@ -182,7 +182,7 @@ thumbnail: assets/img/California/tp.jpeg
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/California/helo.jpeg" class="img-fluid rounded z-depth-1" zoomable=true%}
+        {% include figure.liquid loading="eager" path="assets/img/California/helo.jpeg" class="img-fluid rounded z-depth-1" %}
     </div>
 
 </div>
