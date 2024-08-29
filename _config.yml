@@ -120,7 +120,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: my thoughts # blog_name will be displayed in your blog page
+blog_name: # blog_name will be displayed in your blog page
 blog_description:
 permalink: /blog/:year/:title/
 
@@ -154,9 +154,10 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
-# - name: medium.com
-#    rss_url: 
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/feed/@otto.e.vintola
+
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -277,6 +278,10 @@ jekyll-archives:
     year: "/blog/:year/"
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
+  permalinks:
+    year: "/pictures/:year/"
+    tag: "/pictures/tag/:name/"
+    category: "/pictures/category/:name/"
 
 #display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
 display_categories:  # these categories will be displayed on the front page of your blog

@@ -5,7 +5,7 @@ description: Some notes about fine-tuning deep learning models from a practical 
 tags: 
 giscus_comments: true
 date: 2024-07-31 18.55
-featured: true
+featured: false
 published: true
 
 authors:

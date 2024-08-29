@@ -5,7 +5,7 @@ description: A brief introduction to the theory behind deep learning, linear cla
 tags: 
 giscus_comments: true
 date: 2024-02-20 12.00
-featured: true
+featured: false
 published: true
 
 authors:
