@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Thank you Lukas
+title: Teaching the second programming course
 date: 2024-05-30 12.15
-description: To the best professor in the department and a great person. It was a pleasure to work with you.
+description: It was a pleasure to work with you Lukas!
 tags:
 categories: 
 pretty_table: true
